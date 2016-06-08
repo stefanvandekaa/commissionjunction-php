@@ -134,6 +134,9 @@ class Client {
         if ($http_status >= 400) {
             throw new Exception(sprintf("CommissionJunction Error [%s] %s", $http_status, strip_tags($body)), $http_status);
         }
+
+        $body = preg_replace("/'/", "&#39;", $body);
+        $body = preg_replace("/&#11/", "&amp;#11", $body);
         
         return json_decode(json_encode((array)simplexml_load_string($body)), true);
     }
