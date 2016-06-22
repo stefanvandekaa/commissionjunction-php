@@ -25,7 +25,7 @@ $client = new \CROSCON\CommissionJunction\Client($api_key);
 
 ## Usage
 
-Commission Junction's API documentation can be found [here](http://help.cj.com/en/web_services/web_services.htm#welcome_page.htm).
+Commission Junction's API documentation can be found [here](https://cjcommunity.force.com/s/topic/0TO15000000DSnuGAG/Web%20Services).
 
 The API library provides a generic `api($subdomain, $resource, array $params = array(), $version = 'v2')` method that accepts the subdomain, resource name, GET parameters, and optionally the api version number. When you view an individual REST service's documentation page, you will see a sample URI at the top of the page. The URI maps to the `api(...)` method as follows:
 
