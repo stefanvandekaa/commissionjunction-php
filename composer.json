@@ -1,5 +1,5 @@
 {
-    "name": "croscon/commissionjunction-php",
+    "name": "stefanvandekaa/commissionjunction-php",
     "type": "library",
     "description": "A Commission Junction PHP API Library",
     "keywords": ["commission junction", "commissionjunction", "cj"],
